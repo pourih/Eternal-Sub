@@ -1,59 +1,60 @@
 # Github-Gemini — Build Report
 
-- **Run:** https://github.com/pourih/Eternal-Sub/actions/runs/41048530035
-- **Date (UTC):** 2026-10-30 11:33
+- **Run:** https://github.com/pourih/Eternal-Sub/actions/runs/41195156304
+- **Date (UTC):** 2026-10-31 11:05
 - **Duration:** 3 min
 - **Xray core:** v26.10.29
 
 ## Funnel
 
-- **No-fingerprint excluded:** 8672 configs (require_fingerprint=true — no uTLS fp in link)
-- **Tested:** 3702 configs — **alive:** 462 (279 in allowed countries, 183 in other countries skipped)
-- **Gemini-OK:** 198 of 279 (81 Gemini-blocked)
-- **Quality rejects:** 87 (jitter=56, dl=16, ka=12, up=3) — ka=keep-alive, jitter, dl=download/speed, up=upload
-- **In sub:** **143** configs = **143** ♊Gemini + **0** alive-only (allowed country, no Gemini, passed quality)
-- **Excluded alive-only:** 49 configs passed quality but are NOT in the sub (include_alive_no_gemini=false)
+- **No-fingerprint excluded:** 8795 configs (require_fingerprint=true — no uTLS fp in link)
+- **Tested:** 3476 configs — **alive:** 477 (279 in allowed countries, 198 in other countries skipped)
+- **Gemini-OK:** 170 of 279 (109 Gemini-blocked)
+- **Quality rejects:** 92 (jitter=32, dl=29, ka=24, up=7) — ka=keep-alive, jitter, dl=download/speed, up=upload
+- **In sub:** **131** configs = **131** ♊Gemini + **0** alive-only (allowed country, no Gemini, passed quality)
+- **Excluded alive-only:** 56 configs passed quality but are NOT in the sub (include_alive_no_gemini=false)
 
 ## ♊Gemini configs in sub by country
 
 | Country | Gemini-OK |
 |---|---|
-| NL 🇳🇱 | 53 |
-| DE 🇩🇪 | 31 |
-| US 🇺🇸 | 29 |
-| FR 🇫🇷 | 9 |
-| SG 🇸🇬 | 9 |
-| GB 🇬🇧 | 7 |
-| TR 🇹🇷 | 5 |
+| US 🇺🇸 | 41 |
+| NL 🇳🇱 | 33 |
+| DE 🇩🇪 | 27 |
+| FR 🇫🇷 | 12 |
+| TR 🇹🇷 | 7 |
+| SG 🇸🇬 | 5 |
+| CH 🇨🇭 | 4 |
+| GB 🇬🇧 | 2 |
 
 ## Per-subscription performance
 
 | # | Subscription | Fetched | Unique | Alive | Gemini OK |
 |---|---|---|---|---|---|
-| 1 | pourih/verified.txt | 657 | 355 | 165 | 85 |
-| 2 | miladtahanian/sub.txt | 200 | 46 | 1 | 0 |
-| 3 | rtwo2/top.txt | 1000 | 403 | 78 | 18 |
-| 4 | R3ZARAHIMI/Original-Configs.txt | 161 | 50 | 8 | 4 |
-| 5 | roosterkid/V2RAY_RAW.txt | 130 | 12 | 0 | 0 |
-| 6 | MahanKenway/vless.txt | 139 | 8 | 1 | 0 |
-| 7 | luckylukam/configs_tested.txt | 125 | 75 | 10 | 0 |
+| 1 | pourih/verified.txt | 677 | 400 | 186 | 82 |
+| 2 | miladtahanian/sub.txt | 221 | 75 | 9 | 7 |
+| 3 | rtwo2/top.txt | 1000 | 390 | 79 | 15 |
+| 4 | R3ZARAHIMI/Original-Configs.txt | 162 | 52 | 11 | 0 |
+| 5 | roosterkid/V2RAY_RAW.txt | 142 | 15 | 7 | 5 |
+| 6 | MahanKenway/vless.txt | 151 | 7 | 0 | 0 |
+| 7 | luckylukam/configs_tested.txt | 125 | 75 | 9 | 0 |
 | 8 | ThomasJasperthecat/sublist1.txt | 12 | 12 | 0 | 0 |
 | 9 | teknovpnhub/test2 | 26 | 26 | 0 | 0 |
-| 10 | iampedii/base64.txt | 203 | 10 | 4 | 3 |
-| 11 | Au1rxx/v2ray-base64.txt | 1446 | 58 | 2 | 2 |
-| 12 | 0xRadikal/configs.txt | 1190 | 233 | 118 | 56 |
-| 13 | configs_base64.txt | 4758 | 496 | 18 | 9 |
-| 14 | F0rc3Run/proxies.txt | 55 | 0 | 0 | 0 |
-| 15 | Delta-Kronecker/vless.txt | 820 | 247 | 37 | 17 |
-| 16 | ermaozi/v2ray.txt | 398 | 145 | 1 | 0 |
-| 17 | ninjastrikers/all.txt | 2554 | 390 | 8 | 1 |
-| 18 | Farid-Karimi/mixed_iran.txt | 560 | 71 | 3 | 1 |
-| 19 | liketolivefree/sub.txt | 425 | 192 | 2 | 1 |
-| 20 | roosterkid/V2RAY_BASE64.txt | 130 | 0 | 0 | 0 |
-| 21 | MhdiTaheri/mix.txt | 389 | 63 | 0 | 0 |
-| 22 | barry-far/Sub4.txt | 500 | 160 | 0 | 0 |
-| 23 | 10ium/merged_base64 | 1454 | 485 | 6 | 1 |
-| 24 | Mosifree/Reality | 266 | 165 | 0 | 0 |
-| | **TOTAL** | **17598** | **3702** | **462** | **198** |
+| 10 | iampedii/base64.txt | 194 | 15 | 5 | 5 |
+| 11 | Au1rxx/v2ray-base64.txt | 1446 | 60 | 4 | 2 |
+| 12 | 0xRadikal/configs.txt | 1289 | 234 | 107 | 40 |
+| 13 | configs_base64.txt | 4929 | 456 | 11 | 3 |
+| 14 | F0rc3Run/proxies.txt | 72 | 0 | 0 | 0 |
+| 15 | Delta-Kronecker/vless.txt | 826 | 235 | 21 | 8 |
+| 16 | ermaozi/v2ray.txt | 417 | 154 | 1 | 0 |
+| 17 | ninjastrikers/all.txt | 2561 | 328 | 16 | 1 |
+| 18 | Farid-Karimi/mixed_iran.txt | 580 | 81 | 5 | 0 |
+| 19 | liketolivefree/sub.txt | 209 | 22 | 4 | 1 |
+| 20 | roosterkid/V2RAY_BASE64.txt | 142 | 0 | 0 | 0 |
+| 21 | MhdiTaheri/mix.txt | 392 | 72 | 0 | 0 |
+| 22 | barry-far/Sub4.txt | 500 | 113 | 0 | 0 |
+| 23 | 10ium/merged_base64 | 1453 | 492 | 2 | 1 |
+| 24 | Mosifree/Reality | 266 | 162 | 0 | 0 |
+| | **TOTAL** | **17792** | **3476** | **477** | **170** |
 
 **Subscription:** https://raw.githubusercontent.com/pourih/Eternal-Sub/main/Github-Gemini.txt
